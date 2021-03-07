@@ -1,0 +1,37 @@
+.info-sec{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+
+}
+.info-stuff-container{
+
+    display: flex;
+    padding: 5%;
+    position: relative;
+    height: 50vh;
+}
+.text-container{
+
+    height: 25%;
+    font-size: 2em;
+    text-align: center;
+    width: 70vh;
+}
+#git-logo{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    transform: translate(-50%, 0);
+}
+#ig-logo{
+    position: absolute;
+    top: 0;
+    left: 50%
+
+}
+#li{
+    position: absolute;
+    top: 0;
+    left: 30%
+}
