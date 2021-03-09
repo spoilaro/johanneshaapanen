@@ -15,6 +15,9 @@ const Cv = forwardRef((props, ref) => {
         <div>
             <div ref={ref} className="cv-container">
                 <img alt="Cv" id="cvimg" src={cvsc} />
+                <div id="device-info" >
+                    <h2 >Your device screen is quite small so the CV can't fit here quite right. You can view the CV in Google Drive.</h2>
+                </div>
                 <LinkButton onClick={loadCv} link={"View CV in Google Drive"} />
             </div>
         </div>
