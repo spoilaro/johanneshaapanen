@@ -37,6 +37,10 @@ $mobile-breakpoint: 1300px;
     filter: invert(1);
 }
 
+.media-links > * {
+    cursor: pointer;
+}
+
 @media (max-width: $mobile-breakpoint){
     .links{
         flex-direction: column;
