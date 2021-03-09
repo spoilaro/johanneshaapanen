@@ -4,7 +4,7 @@ import LinkButton from "./buttons/LinkButton"
 import gitlogo from '../assets/github-icon.png'
 import linkedinlogo from '../assets/li-icon2.png'
 
-export default function LandingPage() {
+export default function LandingPage(props) {
 
     
 
@@ -13,7 +13,7 @@ export default function LandingPage() {
             <h1 className="welcome-text">Welcome</h1>
             <div className="links">
                 <LinkButton link={"Contact"} />
-                <LinkButton link={"CV"} />
+                <LinkButton onClick={props.onCvClick} link={"CV"} />
                 <LinkButton link={"Projects"} />
             </div>
             <div className="media-links" >
