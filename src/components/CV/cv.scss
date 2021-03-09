@@ -1,7 +1,10 @@
 
+$mobile-breakpoint: 1300px;
+
 #cvimg{
     transform: rotate(-90deg);
     height: 77%;
+    border-radius: 2%;
 }
 
 .cv-container{
@@ -10,5 +13,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: black;
+    background: linear-gradient(336deg, rgba(9,1,143,1) 0%, rgba(0,0,0,1) 45%, rgba(143,41,41,1) 100%);
+}
+
+@media (max-width: $mobile-breakpoint){
+    #cvimg{
+        display: none;
+    }
 }

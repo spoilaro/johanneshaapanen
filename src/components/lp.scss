@@ -41,4 +41,7 @@ $mobile-breakpoint: 1300px;
     .links{
         flex-direction: column;
     }
+    .links > * {
+        margin-bottom: 9%;
+    }
 }
