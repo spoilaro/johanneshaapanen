@@ -1,6 +1,5 @@
 {
-  "homepage": "http://spoilaro.github.io/JohannesHaapanen",
-  "name": "JohannesHaapanen",
+  "name": "johanneshaapanen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
