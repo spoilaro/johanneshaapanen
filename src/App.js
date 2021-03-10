@@ -2,6 +2,7 @@
 import './App.css';
 import LandingPage from "./components/LandingPage"
 import Cv from "./components/CV/Cv"
+import Contact from "./components/contact/Contact"
 import { useRef } from "react"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
         <LandingPage onCvClick={cvScroll} />
         <Cv ref={cvRef} />
+        <Contact/>
     </div>
   );
 }
