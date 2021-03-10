@@ -20,7 +20,7 @@ export default function LandingPage(props) {
         <div className="landing-container">
             <h1 className="welcome-text">Welcome</h1>
             <div className="links">
-                <LinkButton link={"Contact"} />
+                <LinkButton onClick={props.onContactClick} link={"Contact"} />
                 <LinkButton onClick={props.onCvClick} link={"CV"} />
                 <LinkButton link={"Projects"} />
             </div>

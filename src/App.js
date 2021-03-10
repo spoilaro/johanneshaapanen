@@ -8,16 +8,20 @@ import { useRef } from "react"
 function App() {
 
   const cvRef = useRef(null);
+  const contactRef = useRef(null);
 
   const cvScroll = () => {
     cvRef.current.scrollIntoView({ behavior: 'smooth' });
   }
+  const contactScroll = () => {
+    contactRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <div className="App">
-        <LandingPage onCvClick={cvScroll} />
+        <LandingPage onCvClick={cvScroll} onContactClick={contactScroll} />
         <Cv ref={cvRef} />
-        <Contact/>
+        <Contact ref={contactRef} />
     </div>
   );
 }
