@@ -1,0 +1,58 @@
+$highlight-color: rgb(97, 160, 255);
+
+
+.contact-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/devbackground.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    border: 2px solid $highlight-color;
+    padding: 5%;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.input-container{
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container > input {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid $highlight-color;
+    color: white;
+    max-width: 80%;
+    font-size: 1.5rem;
+}
+.input-container > label {
+    color: white;
+}
+
+#message{
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid $highlight-color;
+    color: white;
+    max-width: 80%;
+    font-size: 1.5rem;
+    white-space: normal;
+    min-height: 20vh;
+}
+
+
+
+#msg-form{
+    display: flex;
+    flex-direction: column;
+}
