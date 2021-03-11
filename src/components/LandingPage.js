@@ -22,7 +22,7 @@ export default function LandingPage(props) {
             <div className="links">
                 <LinkButton onClick={props.onContactClick} link={"Contact"} />
                 <LinkButton onClick={props.onCvClick} link={"CV"} />
-                <LinkButton link={"Projects"} />
+                <LinkButton onClick={props.onProjectClick} link={"Projects"} />
             </div>
             <div className="media-links" >
                 <img onClick={goToGitHub} alt="git-logo" src={gitlogo} />

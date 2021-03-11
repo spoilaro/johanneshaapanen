@@ -1,0 +1,21 @@
+$mobile-breakpoint: 1300px;
+
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../../assets/projectsBackground.jpg);
+    background-size: cover;
+}
+
+@media(max-width: $mobile-breakpoint){
+    .projects-container{
+        flex-direction: column;
+    }
+}
+@media(min-width: $mobile-breakpoint){
+    .projects-container{
+        height: 100vh;
+    }
+}
