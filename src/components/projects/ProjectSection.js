@@ -26,7 +26,7 @@ const portfolioData = {
     image: portfolioImg,
     title: "Johannes Haapanen site",
     gitLink: "https://github.com/spoilaro/johanneshaapanen",
-    liveLink: "#",//TODO add link
+    liveLink: "http://johanneshaapanen.herokuapp.com/",//TODO add link
     intro: `Web site to show what I can do. Cv and contact information can be found here. 
             It was made with React and Sass`,
 
