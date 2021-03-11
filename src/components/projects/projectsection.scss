@@ -4,12 +4,18 @@ $mobile-breakpoint: 1300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    flex-direction: row;
+    background-image: url(../../assets/projectsBackground.jpg);
+    background-size: cover;
 }
 
-
-@media (max-width: $mobile-breakpoint){
+@media(max-width: $mobile-breakpoint){
     .projects-container{
         flex-direction: column;
+    }
+}
+@media(min-width: $mobile-breakpoint){
+    .projects-container{
+        height: 100vh;
     }
 }
