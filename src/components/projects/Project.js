@@ -20,7 +20,7 @@ const Project = (props) => {
                 </div>
                 <div className="info-container" >
                     <p>
-                        dasfkjhsjdakhfjkhsdajkhfkjhasdkjhfhsdkjh kfsd kjfdhs kjfhskjadh fkjsh dkfhskdhf sdhaf ldaskjhfk jhsadkf hskjdh fkjshdakj fhkjahd fhdakshfkj hsdkj 
+                        {props.intro}
                     </p>
                     <div className="button-container" >
                         <LinkButton onClick={openGit} link={"On GitHub"} />

@@ -10,6 +10,7 @@ function App() {
 
   const cvRef = useRef(null);
   const contactRef = useRef(null);
+  const projectRef = useRef(null);
 
   const cvScroll = () => {
     cvRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -17,13 +18,16 @@ function App() {
   const contactScroll = () => {
     contactRef.current.scrollIntoView({ behavior: 'smooth' })
   }
+  const projectScroll = () => {
+    projectRef.current.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <div className="App">
-        <LandingPage onCvClick={cvScroll} onContactClick={contactScroll} />
+        <LandingPage onCvClick={cvScroll} onContactClick={contactScroll} onProjectClick={projectScroll} />
         <Cv ref={cvRef} />
         <Contact ref={contactRef} />
-        <ProjectSection/>
+        <ProjectSection ref={projectRef} />
     </div>
   );
 }
