@@ -16,7 +16,7 @@ const Project = (props) => {
             <div className="project-container" >
                 <h1>{props.title}</h1>
                 <div className="image-container" >
-                    <img alt="Project 1" src={props.image} />
+                    <img alt="Project" src={props.image} />
                 </div>
                 <div className="info-container" >
                     <p>
